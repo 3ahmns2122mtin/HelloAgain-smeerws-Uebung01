@@ -8,40 +8,36 @@ Auf dem Canvas befindet sich mindestens ein Text und ein Image GameObject.
 Die Benennung der Objekte in der Hierarchy, wie auch die Benennung der Elemente in der Project Pane, folgt der PascalCase Notation.
 
 ### Entwicklungsplattform: 
-(Betriebsystem, Unity Version, Visual Studio Version, verwendete SDKs)
+Windows 10, Unity 2020.3.18f1, Visual Studio Version 2019 Community
 
 ### Zielplattform: 
 WebGL Referenzauflösung (960x600) 
 
 ### Visuelle Einblicke in das Projekt: 
-Screenshots (Konzept, Spielabschnitte), Video (< 100MB, < 3 min)
 ![sc-ue01helloagain](https://user-images.githubusercontent.com/28704310/132992326-6bd52f52-8af3-48e5-8406-060d0270f158.JPG)
 
 ### Notwendiges für die Ausführung: 
-z.B.: Installationsprozess, Schritt für Schritt Anweisung, spezielles Packages welches geladen werden muss, etc.  
-
-### Drittmaterial: 
-Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nicht von mir stammt muss hier referenziert werden. 
+Für den Export in WebGL muss das Modul WebGL in Unity installiert sein.
 
 ### Anforderungen:  
-- [ ] Anlegen eines 2D Unityprojekts mit Namen HelloAgain-yourKürzel
-- [ ] In Assets einen Folder MyGame erstellen und den Scenes Folder in diesen MyGame Folder ziehen
-- [ ] Im Ordner Scenes die SampleScene in HelloAgain umbenennen
-- [ ] Im Game View Einstellung 960x600 einstellen
-- [ ] Der Szene ein Canvas GameObject hinzufügen
-- [ ] Das Canvas screenindependent einstellen: 
-- [ ] Canvas Componente Render Mode auf Screen Space – Camera einstellen und in Render Camera die Main Camera reinziehen.
-- [ ] Canvas Scaler UI Scale Mode, Scale With Screen Size einstellen und als Reference Resolution 960 x 600 einstellen.
-- [ ] Dem Canvas GameObject ein Text GameObject hinzufügen: „Hello again, here is yourKürzel speaking :) 
-- [ ] Dieses Text GameObject umbenennen in Welcome
-- [ ] Dem Canvas GameObject ein Image GameObject hinzufügen (Abmessung/Auflösung > 960x600)
-- [ ] Dieses Image GameObject umbennen in Background
-- [ ] Anordnung in der Hierarchy so ändern, dass der Background hinter dem Text liegt
-- [ ] Im Ornder Assets > MyGame  einen Ordner Sprites anlegen, alle im Projekt verwendeten Sprites, die wir hinzufügen, dort ablegen.
-- [ ] In das Image GameObject mit Namen Background ein Sprite in die Image Source ziehen 
-- [ ] Assets und ProjectSettings Folders auf GitHub laden
-- [ ] Readme updaten
-- [ ] WebGL exportieren in HelloAgain-yourKürzel > docs
+- [x] Anlegen eines 2D Unityprojekts mit Namen HelloAgain-yourKürzel
+- [x] In Assets einen Folder MyGame erstellen und den Scenes Folder in diesen MyGame Folder ziehen
+- [x] Im Ordner Scenes die SampleScene in HelloAgain umbenennen
+- [x] Im Game View Einstellung 960x600 einstellen
+- [x] Der Szene ein Canvas GameObject hinzufügen
+- [x] Das Canvas screenindependent einstellen: 
+- [x] Canvas Componente Render Mode auf Screen Space – Camera einstellen und in Render Camera die Main Camera reinziehen.
+- [x] Canvas Scaler UI Scale Mode, Scale With Screen Size einstellen und als Reference Resolution 960 x 600 einstellen.
+- [x] Dem Canvas GameObject ein Text GameObject hinzufügen: „Hello again, here is yourKürzel speaking :) 
+- [x] Dieses Text GameObject umbenennen in Welcome
+- [x] Dem Canvas GameObject ein Image GameObject hinzufügen (Abmessung/Auflösung > 960x600)
+- [x] Dieses Image GameObject umbennen in Background
+- [x] Anordnung in der Hierarchy so ändern, dass der Background hinter dem Text liegt
+- [x] Im Ornder Assets > MyGame  einen Ordner Sprites anlegen, alle im Projekt verwendeten Sprites, die wir hinzufügen, dort ablegen.
+- [x] In das Image GameObject mit Namen Background ein Sprite in die Image Source ziehen 
+- [x] Assets und ProjectSettings Folders auf GitHub laden
+- [x] Readme updaten
+- [x] WebGL exportieren in HelloAgain-yourKürzel > docs
 - [ ] Upload auf GitHub
 - [ ] WebGL Pages Einstellen
 - [ ] Link in Readme einfügen
@@ -51,7 +47,7 @@ Falls verwendet Fonts, Sounds, Music, Graphics, Materials, Code etc. welches nic
 - [ ] Zusätzliche Text und Sprite Elemente einfügen und platzieren
 - [ ] Text visuell ändern: color, font, font style, etc.
 - [ ] Textmesh pro GameObject einfügen und manipulieren 
-- [ ] Color Tint Playmode einstellen
+- [x] Color Tint Playmode einstellen
 
 ### Lessons Learned:
 | Neu gelernt | Wiederholung | Vertiefung | Lernstoff                                                                             |
